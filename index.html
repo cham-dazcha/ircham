@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portofolio Ircham Nur Fajri Kamal</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+  <button id="darkModeToggle" class="dark-toggle"><i class="fas fa-moon"></i></button>
+
+  <section class="hero">
+    <div class="container">
+      <h1>Ircham Nur Fajri Kamal</h1>
+      <p>Mari lebih mengenal diriku</p>
+    </div>
+  </section>
+
+  <section class="about">
+    <div class="container about-content">
+      <div class="about-text">
+        <h2>About Me</h2>
+        <ul class="biodata">
+          <li><i class="fas fa-user"></i> <strong>Nama:</strong> Ircham Nur Fajri Kamal</li>
+          <li><i class="fas fa-school"></i> <strong>Sekolah:</strong> <a href="https://maps.google.com/?q=SMK+N+1+Bangsri" target="_blank">SMK N 1 Bangsri</a></li>
+          <li><i class="fas fa-map-marker-alt"></i> <strong>Asal:</strong> <a href="https://maps.google.com/?q=Jepara" target="_blank">Jepara</a></li>
+          <li><i class="fas fa-birthday-cake"></i> <strong>Lahir:</strong> Jepara, 17 April 2007</li>
+        </ul>
+        <p>Mari lebih dekat mengenal saya.</p>
+        <p>Perkenalkan Nama Saya Adalah Ircham Nur Fajri Kamal, Saya Adalah Siswa Yang Bersekolah Di SMKN 1 Bangsri. Saya Masuk Jurusan PPLG Karena Saya Memiliki Minat Untuk Belajar Coding dan Desain. Dengan adanya PKL Saya Akan Berusaha Menambah Wawasan Saya Tentang Desain Dan coding, Dan Akan Manfaatkan Waktu PKL Untuk Mengasah Skill Saya. Selain Itu Saya Juga Suka Dalam Hal Fotografi. Itu Saja yang Dapat Saya sampaikan, Apabila Ada yang Butuh Di pertanyakan Bisa Datang Ke Sosial Media Saya Atau Hubungi NO Diatas. </p>
+      </div>
+      <div class="about-photo">
+        <img src="foto/prfl.jpg" alt="Foto Profil" />
+      </div>
+    </div>
+  </section>
+  
+
+  <section class="education">
+    <div class="container">
+      <h2>Riwayat Pendidikan</h2>
+      <ul class="education-list">
+        <li><h3>SMK N 1 Bangsri</h3><p>2023 - Sekarang</p><p>PPLG</p></li>
+        <li><h3>MTS Hasyim Asy A'ri</h3><p>2019 - 2022</p></li>
+        <li><h3>SD N 04 Tubanan</h3><p>2012 - 2018</p></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="projects">
+    <div class="container">
+      <h2>Hasil Proyek</h2>
+      <div class="gallery">
+        <div class="gallery-item" onclick="openModal('proyek1')">
+          <img src="foto/d2.png" alt="Proyek 1" />
+          <p>Desain website meubel</p>
+        </div>
+        <div class="gallery-item" onclick="openModal('proyek2')">
+          <img src="foto/c2.png" alt="Proyek 2" />
+          <p>Game Snake</p>
+        </div>
+        <div class="gallery-item" onclick="openModal('proyek3')">
+          <img src="foto/d3.png" alt="Proyek 3" />
+          <p>UI Coffee Shop</p>
+        </div>
+        <div class="gallery-item" onclick="openModal('proyek4')">
+          <img src="foto/d9.png" alt="Proyek 4" />
+          <p>Landing Page</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <div id="modal-text"></div>
+    </div>
+  </div>
+
+  <section class="pkl-goals">
+    <div class="container">
+      <h2>Tujuan PKL</h2>
+      <p>Saya ingin mengembangkan skill teknis dan pengalaman industri nyata di bidang perangkat lunak dan desain UI/UX.</p>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
